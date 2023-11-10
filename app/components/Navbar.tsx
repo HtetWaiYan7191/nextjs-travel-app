@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="p-5 flex justify-between items-center">
         <Link href='/' className="">
-            <Image src="/hilink-logo.svg" width={70} height={70} alt="logo-image"></Image>
+            <Image src="/hilink-logo.svg" width={100} height={70} alt="logo-image"></Image>
         </Link>
         <ul className="hidden lg:flex gap-12 h-full">
             {NAV_LINKS.map(link => (
